@@ -1,0 +1,31 @@
+/* 在该文件定制css */
+.detailBtn {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 6px 20px;
+  background: transparent;
+  color: #eb592d;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.detailBtn:hover {
+  color: #e2937a;
+  text-decoration: underline;
+}
+
+#scrollUp {
+  padding: 0 6px;
+  line-height: 36px;
+  right: 12px;
+  bottom: 80px;
+  text-align: center;
+  outline: 1px solid #000;
+  font-size: 12px;
+  color: #000;
+}
+
+#scrollUp:hover{
+  color: #eb592d;
+  outline: 1px solid #eb592d;
+}
